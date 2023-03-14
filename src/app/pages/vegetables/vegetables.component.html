@@ -1,0 +1,117 @@
+<div class="about-section">
+  <div class="inner-width">
+
+    <h1>VEGETABLES</h1>
+    <div class="border"></div>
+    <div class="about-section-row">
+      <div class="about-section-col">
+        <div class="about">
+          <p>Vegetable seed means agricultural seed that is commonly used to produce vegetables or herbs in home gardens, and is generally known and sold under the name of vegetable or herb seed in this state.<br>Vegetables are usually classified on the basis of the part of the plant that is used for food. 
+          </p>
+          <!-- <a href="#">Read More</a> -->
+        </div>
+      </div>
+     
+          </div>
+        </div>
+      </div>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+  <div class="wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;">
+    <div class="card" *ngFor="let i of finefarm">
+      <img [src]="i.images" />
+      <div class="info">
+        <h1>{{ i.name }}</h1>
+        <!-- <button routerLink="/units/recipe">READ MORE</button> -->
+        <!-- <button [routerLink]="['/units/recipe', i.id]">READ MORE</button> -->
+    
+         <button (click)="gotohere(i.id)">view more</button><br>
+         <!-- <button (click)="gotohere(i.id)">buy now</button>  -->
+         <a style="background-color: rgb(28, 31, 31);" href="payment">buy now</a>
+         <div class="btn-box">
+         <!-- <a href="" class="theme-btn btn-style-one">Buy Now</a>     -->
+ 
+         
+      </div>
+    </div>
+  </div>
+  </div>
+
+    
+
+
+
+
+  <html>
+    <head>
+      <title>GALLERY</title>
+      <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
+    </head>
+    <body>
+      <p class="heading">Gallery</p>
+      <div class="gallery-image">
+        <div class="img-box">
+          <img src="https://media.istockphoto.com/id/511976070/photo/green-sprouts.jpg?s=612x612&w=0&k=20&c=MzoPpySb-r5bdKui7g8tPWzaZJB6ppVJfKWwWPJIxO8=" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <!-- <p>Library</p> -->
+              <!-- <p class="opacity-low">Architect Design</p> -->
+            </div>
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="https://media.istockphoto.com/id/508065120/photo/seeds-gardener-prepares-the-seedlings.jpg?s=612x612&w=0&k=20&c=GjZaD7wWQ2xSg9vnAS6dbPCPHMr0Xt4sAhCDr0sf_X0=" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <!-- <p>Night Sky</p> -->
+              <!-- <p class="opacity-low">Cinematic</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="https://media.istockphoto.com/id/944494052/photo/tomorrow-lies-in-our-hands.jpg?s=612x612&w=0&k=20&c=mZofyODZlrUGeud1b-tfI_Xk3e4A76QeMEcMNPpgEFs=" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <!-- <p>Tea Talk</p> -->
+              <!-- <p class="opacity-low">Composite</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="https://media.istockphoto.com/id/540611402/photo/seeds-for-planting.jpg?s=612x612&w=0&k=20&c=bFYuaP9CsP2Xvv7XeyD2D44HZkdZpsa195cgXihiUsY=" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <!-- <p>Road</p> -->
+              <!-- <p class="opacity-low">Landscape</p> -->
+            </div>
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="https://media.istockphoto.com/id/1057071834/photo/seed-germination-process-isolate-on-white-background-of-planting-tree-seedling-gardening.jpg?s=612x612&w=0&k=20&c=Nk3L16pbJHV8l286XvxsGFLcY9yWjStPQjZAoEk7ZmM=" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <!-- <p>Sea</p> -->
+              <!-- <p class="opacity-low">Cityscape</p> -->
+            </div>
+          </div> 
+        </div>
+        <div class="img-box">
+          <img src="https://media.istockphoto.com/id/1470241839/photo/a-sprouting-plant-with-sun-and-blue-sky.jpg?s=612x612&w=0&k=20&c=gU-rmjGqfKtAW23VLaiX_a5WqWlwu9TKTbDFmX6WWXA=" alt="" />
+          <div class="transparent-box">
+            <div class="caption">
+              <!-- <p>Vintage</p> -->
+              <!-- <p class="opacity-low">Cinematic</p> -->
+            </div>
+          </div> 
+        </div>
+      </div>
+    </body>
+    </html>

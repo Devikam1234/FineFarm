@@ -1,0 +1,20 @@
+*{
+
+    
+    text-align: right;
+    font-size: large;
+    color: rgb(26, 24, 24);
+    font-size: large;
+    font-weight: 500;
+}
+
+.content{
+    display: flex;
+    justify-content: right;
+    padding-left: 500px;
+    
+}
+.dropdown-menu{
+    background-color: white;
+}
+

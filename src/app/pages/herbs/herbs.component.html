@@ -1,0 +1,123 @@
+<!-- <div class="container-fluid"> -->
+  <!-- <div class="header"> -->
+    <!-- <h1> <b><p class="text-center">Herbs</p></b></h1> -->
+    <!-- <p> -->
+      <!-- We offer best quality fruit seeds which you can sow to grow in your terrace garden or balcony garden.The basic idea is to have healthy fruits unlike the market place fruits grown with chemicals support just for commercial purpose in mind. -->
+
+<!-- The pot fruits seeds available with us can be grown in organic way to have healthy fruits. -->
+    <!-- </p> -->
+
+   
+
+    <div class="about-section">
+      <div class="inner-width">
+
+        <h1>HERBS</h1>
+        <div class="border"></div>
+        <div class="about-section-row">
+          <div class="about-section-col">
+            <div class="about">
+              <p>
+                We offer best quality fruit seeds which you can sow to grow in your terrace garden or balcony garden.The basic idea is to have healthy fruits unlike the market place fruits grown with chemicals support just for commercial purpose in mind.
+                The pot fruits seeds available with us can be grown in organic way to have healthy fruits.
+              </p>
+              <!-- <a href="#">Read More</a> -->
+            </div>
+          </div>
+         
+              </div>
+            </div>
+          </div>
+        
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;">
+      <div class="card border-secondary mb-3" *ngFor="let i of finefarm">
+        <img [src]="i.img2" />
+        
+        <div class="info">
+          <h1>{{ i.name2 }}</h1>
+          <!-- <button routerLink="/units/recipe">READ MORE</button> -->
+          <!-- <button [routerLink]="['/units/recipe', i.id]">READ MORE</button> -->
+            <button (click)="gotohere(i.id)">view more</button>  
+            <br>    
+            <!-- <button (click)="gotohere(i.id)">buy now</button>  -->
+            <a style="background-color: rgb(28, 31, 31);" href="payment">buy now</a>
+    
+        </div>
+      </div>
+    </div>
+  
+
+
+    <html>
+      <head>
+        <title>GALLERY</title>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
+      </head>
+      <body>
+        <p class="heading">Gallery</p>
+        <div class="gallery-image">
+          <div class="img-box">
+            <img src="https://cdn.shopify.com/s/files/1/1380/2059/articles/Feat-Image_1100x1100.jpg?v=1594124414" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Library</p> -->
+                <!-- <p class="opacity-low">Architect Design</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://www.rd.com/wp-content/uploads/2022/10/GettyImages-1020703366.jpg" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Night Sky</p> -->
+                <!-- <p class="opacity-low">Cinematic</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="https://www.agrifarming.in/wp-content/uploads/2019/01/Herbal-Farming..jpg" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Tea Talk</p> -->
+                <!-- <p class="opacity-low">Composite</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="https://cdn.pixabay.com/photo/2016/03/10/18/44/top-view-1248955_960_720.jpg" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Road</p> -->
+                <!-- <p class="opacity-low">Landscape</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://en-media.thebetterindia.com/uploads/2022/09/How-to-grow-herbs-1662797250.jpg" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Sea</p> -->
+                <!-- <p class="opacity-low">Cityscape</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/flowering-herbs-1520538294.jpg" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Vintage</p> -->
+                <!-- <p class="opacity-low">Cinematic</p> -->
+              </div>
+            </div> 
+          </div>
+        </div>
+      </body>
+      </html>
+    

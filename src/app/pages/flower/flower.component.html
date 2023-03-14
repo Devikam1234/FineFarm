@@ -1,0 +1,110 @@
+<div class="about-section">
+  <div class="inner-width">
+
+    <h1>FLOWERS</h1>
+    <div class="border"></div>
+    <div class="about-section-row">
+      <div class="about-section-col">
+        <div class="about">
+          <p>
+            seeds are important primarily because they are sources of a variety of foods—for example, the cereal grains, such as wheat, rice, and corn (maize); the seeds of beans, peas, peanuts, soybeans, almonds, sunflowers, hazelnuts, walnuts, pecans, and Brazil nuts.
+          </p>
+          <!-- <a href="#">Read More</a> -->
+        </div>
+      </div>
+     
+          </div>
+        </div>
+      </div>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <div class="wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;">
+      <div class="card" *ngFor="let i of finefarm">
+        <img [src]="i.img1" />
+        <div class="info">
+          <h1>{{ i.name1 }}</h1>
+          <!-- <button routerLink="/units/recipe">READ MORE</button> -->
+          <!-- <button [routerLink]="['/units/recipe', i.id]">READ MORE</button> -->
+          <button (click)="gotohere(i.id)">view more</button>   <br>
+             
+          <a style="background-color: rgb(28, 31, 31);" href="payment">buy now</a>
+    
+        </div>
+      </div>
+    </div>
+  
+
+
+
+    <html>
+      <head>
+        <title>GALLERY</title>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
+      </head>
+      <body>
+        <p class="heading">Gallery</p>
+        <div class="gallery-image">
+          <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNlZWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Library</p> -->
+                <!-- <p class="opacity-low">Architect Design</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/1200963369/photo/hand-sowing-seeds.jpg?s=612x612&w=0&k=20&c=-KU-a5ZJya6hwDo-itsc6JNs388STG3fLgIOYpouxVg=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Night Sky</p> -->
+                <!-- <p class="opacity-low">Cinematic</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/540611402/photo/seeds-for-planting.jpg?s=612x612&w=0&k=20&c=bFYuaP9CsP2Xvv7XeyD2D44HZkdZpsa195cgXihiUsY=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Tea Talk</p> -->
+                <!-- <p class="opacity-low">Composite</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/637719416/photo/growing-plant-green-sprout-growing-from-seed.jpg?s=612x612&w=0&k=20&c=qrT7-KAVtjMzfWo8glySsRUMBIRElqRpFUVqfh34JI4=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Road</p> -->
+                <!-- <p class="opacity-low">Landscape</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/1133764011/photo/gardening-planting-at-home-man-sowing-seeds-in-germination-box.jpg?s=612x612&w=0&k=20&c=6FHu682H-gxxS5oh8XYkX5QqaITMsNr6_8JQt46KVT4=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Sea</p> -->
+                <!-- <p class="opacity-low">Cityscape</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/1294349033/photo/farmer-examining-growth-quality-of-sunflowers-seeds.jpg?s=612x612&w=0&k=20&c=a38enp9TyT0QZ8uZKy1hQl5tbX4CL9OAc2hSynQ2QWA=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Vintage</p> -->
+                <!-- <p class="opacity-low">Cinematic</p> -->
+              </div>
+            </div> 
+          </div>
+        </div>
+      </body>
+      </html>
+    

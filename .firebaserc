@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "finefarm2023": {
+      "hosting": {
+        "FineFarm": [
+          "finefarm2023"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "finefarm2023"
+  }
+}

@@ -1,0 +1,114 @@
+<div class="about-section">
+  <div class="inner-width">
+
+    <h1>FRUITS</h1>
+    <div class="border"></div>
+    <div class="about-section-row">
+      <div class="about-section-col">
+        <div class="about">
+          <p>
+            fruit, the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Thus, apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically fruits.
+          </p>
+          <!-- <a href="#">Read More</a> -->
+        </div>
+      </div>
+     
+          </div>
+        </div>
+      </div>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+      
+
+
+      <div class="wrapper" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;">
+        <div class="card" *ngFor="let i of finefarm">
+          <img [src]="i.image" />
+          <div class="info">
+            <h1>{{ i.names }}</h1>
+            <!-- <button routerLink="/units/recipe">READ MORE</button> -->
+            <!-- <button [routerLink]="['/units/recipe', i.id]">READ MORE</button> -->
+      
+             <button (click)="gotohere(i.id)">view more</button>  
+             <br>   
+      
+             <!-- <button (click)="gotohere(i.id)">buy now</button>   -->
+             <a style="background-color: rgb(28, 31, 31);" href="payment">buy now</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <html>
+      <head>
+        <title>GALLERY</title>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
+      </head>
+      <body>
+        <p class="heading">Gallery</p>
+        <div class="gallery-image">
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/1344639908/photo/cute-girl-planting-flowers-with-mother-at-house-balcony.jpg?s=612x612&w=0&k=20&c=x4aEnsmzgGL3aC5vxRQw84ENj6bpySl26y6O6rzZnbk=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Library</p> -->
+                <!-- <p class="opacity-low">Architect Design</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/492120574/photo/new-plant-seed-germinting-from-the-soil.jpg?s=612x612&w=0&k=20&c=C3zz0oXbghQCXZJaU5szm93W1rBOWDKI30Sl6lFp3Bk=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Night Sky</p> -->
+                <!-- <p class="opacity-low">Cinematic</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/519000528/photo/person-planting-seeds.jpg?s=612x612&w=0&k=20&c=K1BVgfaNF1trFntbFEm6S2TOYaM33EQIti7P0By2Ltg=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Tea Talk</p> -->
+                <!-- <p class="opacity-low">Composite</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/527229644/photo/planting-seeds.jpg?s=612x612&w=0&k=20&c=42c_9MIwl59_8oh4fKCW1m-BDlhZLi31tTP3_sRYoWk=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Road</p> -->
+                <!-- <p class="opacity-low">Landscape</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/477665303/photo/row-of-sowing-soybean-bean-seed-on-fertile-soil.jpg?s=612x612&w=0&k=20&c=g4EOHEAiS0HcvxsItc-4iJnxi8x-wuVouY3KrSSHX_o=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Sea</p> -->
+                <!-- <p class="opacity-low">Cityscape</p> -->
+              </div>
+            </div> 
+          </div>
+          <div class="img-box">
+            <img src="https://media.istockphoto.com/id/1138825703/photo/seedling-ready-to-be-planted-in-the-garden.jpg?s=612x612&w=0&k=20&c=d76nKMjZHPhbt3S-CzFTlOvfYmR2_P45Ow62RW38iyg=" alt="" />
+            <div class="transparent-box">
+              <div class="caption">
+                <!-- <p>Vintage</p> -->
+                <!-- <p class="opacity-low">Cinematic</p> -->
+              </div>
+            </div> 
+          </div>
+        </div>
+      </body>
+      </html>
